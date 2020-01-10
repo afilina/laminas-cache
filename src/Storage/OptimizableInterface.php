@@ -8,7 +8,7 @@
 
 namespace Laminas\Cache\Storage;
 
-interface OptimizableInterface
+interface OptimizableInterface extends StorageInterface
 {
     /**
      * Optimize the storage

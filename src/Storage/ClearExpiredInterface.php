@@ -8,7 +8,7 @@
 
 namespace Laminas\Cache\Storage;
 
-interface ClearExpiredInterface
+interface ClearExpiredInterface extends StorageInterface
 {
     /**
      * Remove expired items

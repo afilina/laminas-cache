@@ -8,7 +8,7 @@
 
 namespace Laminas\Cache\Storage;
 
-interface FlushableInterface
+interface FlushableInterface extends StorageInterface
 {
     /**
      * Flush the whole storage

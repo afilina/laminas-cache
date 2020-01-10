@@ -8,7 +8,7 @@
 
 namespace Laminas\Cache\Storage;
 
-interface TaggableInterface
+interface TaggableInterface extends StorageInterface
 {
     /**
      * Set tags to an item by given key.

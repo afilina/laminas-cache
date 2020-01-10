@@ -8,7 +8,7 @@
 
 namespace Laminas\Cache\Storage;
 
-interface AvailableSpaceCapableInterface
+interface AvailableSpaceCapableInterface extends StorageInterface
 {
     /**
      * Get available space in bytes
